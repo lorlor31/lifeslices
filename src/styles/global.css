@@ -1,0 +1,108 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f7fc; /* Fond léger et moderne */
+    color: #333; /* Texte sombre mais agréable */
+    padding: 20px;
+  }
+  
+  /* Article styling */
+  article {
+    max-width: 800px;
+    margin: 0 auto; /* Centrage automatique */
+    background-color: #ffffff; /* Fond blanc pour le post */
+    padding: 20px;
+    border-radius: 8px; /* Coins arrondis pour un look moderne */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Ombre subtile */
+  }
+  
+  /* Header styles */
+  h1 {
+    font-size: 2.5rem;
+    color: #2d3748; /* Gris foncé pour le titre */
+    margin-bottom: 15px;
+    font-weight: 700;
+  }
+  
+  /* Paragraph styles */
+  p {
+    font-size: 1.125rem;
+    color: #4a5568; /* Gris plus clair pour les paragraphes */
+    margin-bottom: 15px;
+    line-height: 1.8;
+  }
+  
+  /* Link styles */
+  a {
+    color: #3182ce; /* Bleu agréable pour les liens */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #2b6cb0; /* Bleu plus foncé au survol */
+    text-decoration: underline;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+    background-color: #f0f9ff; /* Fond bleu très léger */
+    border-left: 5px solid #3182ce; /* Barre bleu sur la gauche */
+    padding: 10px 20px;
+    margin: 20px 0;
+    font-style: italic;
+    color: #2d3748;
+    font-size: 1.125rem;
+  }
+  
+  /* Lists */
+  ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  ol {
+    list-style-type: decimal;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Code blocks */
+  pre {
+    background-color: #2d3748;
+    color: #f7fafc;
+    padding: 15px;
+    border-radius: 8px;
+    overflow-x: auto;
+  }
+  
+  code {
+    background-color: #edf2f7;
+    color: #2d3748;
+    padding: 0 5px;
+    border-radius: 4px;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    article {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 2rem;
+    }
+  
+    p {
+      font-size: 1rem;
+    }
+  }
+  
